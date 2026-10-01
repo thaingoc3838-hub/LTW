@@ -1,0 +1,43 @@
+﻿
+body {
+}
+
+/* Product page */
+#div-pro-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+.box-pro {
+    height: 350px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.size-img {
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    object-fit: cover; /* Đảm bảo hình ảnh thật không bị méo tỉ lệ */
+    border-radius: 6px;
+}
+
+.box-description {
+    height: 120px;
+    width: 250px;
+    background-color: gray;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.margin-des {
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 2px;
+}
